@@ -1,0 +1,47 @@
+g-area {
+  position: absolute;
+  width: 800px;
+  height: 350px;
+  border: solid 2px;
+  top: 50px;
+  left: 50px;
+}
+
+g-ground {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  bottom: 0px;
+  border-top: solid 1px;
+  background-color: #F5F5F5;
+  padding: 0;
+  margin: 0;
+}
+
+g-char {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  bottom: 80px;
+  left: 100px;
+  border: solid 1px;
+  background-color: #333333;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  user-select: none;
+}
+
+g-obs {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 80px;
+  left: 780px;
+  background-color: red;
+  padding: 0;
+  margin: 0;
+}
